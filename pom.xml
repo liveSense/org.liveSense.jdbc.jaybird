@@ -13,7 +13,7 @@
     <version>2.2.0-beta-1_1-SNAPSHOT</version>
     <packaging>bundle</packaging>
 
-    <name>liveSense Jaybird JDBC driver</name>
+    <name>liveSense :: JDBC :: Jaybird</name>
     <description>
 		This  bundle contains the Jaybird JDBC driver
     </description>
