@@ -7,13 +7,19 @@ This bundle contains the Jaybird JDBC driver
 * org.firebirdsql.jdbc(2.2.0)
 
 ## OSGi Dependencies
-* __System Bundle - org.apache.felix.framework (3.0.8)__
+* __System Bundle - org.apache.felix.framework (4.0.3)__
 	* javax.naming
 	* javax.naming.spi
 	* javax.security.auth
 	* javax.sql
-	* javax.transaction.xa
-* __log4j-over-slf4j - log4j.over.slf4j (1.6.1)__
+* __geronimo-j2ee-connector_1.5_spec - org.apache.geronimo.specs.geronimo-j2ee-connector_1.5_spec (2.0.0)__
+	* javax.resource
+	* javax.resource.cci
+	* javax.resource.spi
+	* javax.resource.spi.security
+* __geronimo-jta_1.1_spec - org.apache.geronimo.specs.geronimo-jta_1.1_spec (1.1.1)__
+	* INFO: javax.transaction.xa
+* __OPS4J Pax Logging - API - org.ops4j.pax.logging.pax-logging-api (1.7.0)__
 	* org.apache.log4j
 
 ## OSGi Embedded JARs
