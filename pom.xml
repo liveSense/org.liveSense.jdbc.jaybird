@@ -6,9 +6,10 @@
 	<parent>
 		<groupId>com.github.livesense</groupId>
 		<artifactId>org.liveSense.parent</artifactId>
-		<version>2-SNAPSHOT</version>
+		<version>1.0.3</version>
 		<relativePath>..</relativePath>
 	</parent>
+    <version>1.0.3-SNAPSHOT</version>
 	<scm>
 		<connection>scm:git:https://github.com/liveSense/org.liveSense.jdbc.jaybird.git</connection>
 		<developerConnection>scm:git:https://github.com/liveSense/org.liveSense.jdbc.jaybird.git</developerConnection>
@@ -16,7 +17,6 @@
 	</scm>
 
 	<artifactId>org.liveSense.jdbc.jaybird</artifactId>
-	<version>2.2.0_1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<name>liveSense :: JDBC :: Jaybird</name>
